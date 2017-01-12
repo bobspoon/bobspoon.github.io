@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <meta http-equiv="cleartype" content="on">
+
+    <!-- Mobile settings http://t.co/dKP3o1e -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- About this document -->
+    <meta name="description" content="Chopstick is a framework based on the ITCSS architecture and a series of principles. It creates a structure to easily set-up and build bespoke web projects.">
+    <meta name="author" content="">
+    <title>Strativity</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/screen.css">
+
+    <link rel="icon" href="/favicon.png">
+    <!--
+        Place all other favicons in website root (e.g. http://web.dev/favicon.ico).
+        Add your font license here, if necessary.
+    -->
+</head>
+
+
+<body>
+
+    <!-- Deprecated browser alert -->
+    <!--[if lt IE 9]>
+<div class="c-alert-box">
+    <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+</div>
+<![endif]-->
+
+    <!-- End deprecated browser alert -->
+
+
+    <header>
+    <div class="container">
+        <div class="logo">
+            Strativity
+        </div>
+        <div class="profile">
+            <div class="profile__name">
+                Tom Hudders<br>
+                399 activities
+            </div>
+            <div class="profile__picture">
+                <img src="https://dgalywyr863hv.cloudfront.net/pictures/athletes/1622084/820619/8/large.jpg">
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<section class="container page-container">
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Type
+            </button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item" href="#">Ride</a>
+              <a class="dropdown-item" href="#">Run</a>
+              <a class="dropdown-item" href="#">Swim</a>
+            </div>
+        </div>
+        <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Distance
+            </button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item" href="#">0km - 25km</a>
+              <a class="dropdown-item" href="#">25km - 75km</a>
+              <a class="dropdown-item" href="#">75km - 125km</a>
+              <a class="dropdown-item" href="#">125km - 200km</a>
+              <a class="dropdown-item" href="#">200km - extreme</a>
+            </div>
+        </div>
+        <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Elevation
+            </button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item" href="#">0m - 200m</a>
+              <a class="dropdown-item" href="#">200m - 500m</a>
+              <a class="dropdown-item" href="#">500m - 1000m</a>
+              <a class="dropdown-item" href="#">1000m - 2000m</a>
+              <a class="dropdown-item" href="#">2000m - extreme</a>
+            </div>
+        </div>
+        <button type="button" class="btn btn-secondary">I'm feeling lucky</button>
+    </div>
+</section>
+
+<section class="container page-container">
+    <div class="row">
+        
+        <div class="col-4">
+            <div class="card">
+                
+                <a class="thumbnail card-zoom" href="#" data-image-id="" data-toggle="modal" data-title="Altijd rechtdoor" data-caption="84.2km" data-image="https://d2u2bkuhdva5j0.cloudfront.net/activities/825302492/0/2/640x360.png@2x" data-target="#image-gallery">
+                    <img class="lazy card-img-top img-fluid" src="img/jpg/placeholder.jpg" data-original="https://d2u2bkuhdva5j0.cloudfront.net/activities/825302492/0/2/640x360.png@2x" width="350" height="200" alt="Card image cap">
+                </a>
+                <div class="card-block">
+                    <div class="card-icon">
+                        <svg role="img" class="c-symbol">
+                            <use xlink:href="/img/svg/svg-symbols.svg#c-symbol-ride"></use>
+                        </svg>
+                    </div>
+                    <h4 class="card-title"><a href="#!">Altijd rechtdoor</a></h4>
+                    <table>
+                        <tr>
+                            <td><strong>Distance</strong></td>
+                            <td>84.2km</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Elevation</strong></td>
+                            <td>0m</td>
+                        </tr>
+                    </table>
+                </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <table class="muted">
+                                <tr>
+                                    <td>Date</td>
+                                    <td>2017-01-08</td>
+                                </tr>
+                                <tr>
+                                    <td>Moving time</td>
+                                    <td>02:57:46</td>
+                                </tr>
+                                <tr>
+                                    <td>Elapsed time</td>
+                                    <td>03:19:42</td>
+                                </tr>
+                            </table>
+                        </li>
+
+                    </ul>
+
+
+
+            </div>
+        </div>
+        
+        <div class="col-4">
+            <div class="card">
+                
+                <div class="card-extreme">
+                    <svg role="img" class="c-symbol-extreme">
+                        <use xlink:href="/img/svg/svg-symbols.svg#c-symbol-extreme"></use>
+                    </svg>
+                </div>
+                
+                <a class="thumbnail card-zoom" href="#" data-image-id="" data-toggle="modal" data-title="Festive 500 ... in 1 rit" data-caption="510.2km" data-image="https://d2u2bkuhdva5j0.cloudfront.net/activities/812226487/0/2/640x360.png@2x" data-target="#image-gallery">
+                    <img class="lazy card-img-top img-fluid" src="img/jpg/placeholder.jpg" data-original="https://d2u2bkuhdva5j0.cloudfront.net/activities/812226487/0/2/640x360.png@2x" width="350" height="200" alt="Card image cap">
+                </a>
+                <div class="card-block">
+                    <div class="card-icon">
+                        <svg role="img" class="c-symbol">
+                            <use xlink:href="/img/svg/svg-symbols.svg#c-symbol-ride"></use>
+                        </svg>
+                    </div>
+                    <h4 class="card-title"><a href="#!">Festive 500 ... in 1 rit</a></h4>
+                    <table>
+                        <tr>
+                            <td><strong>Distance</strong></td>
+                            <td>510.2km</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Elevation</strong></td>
+                            <td>1501m</td>
+                        </tr>
+                    </table>
+                </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <table class="muted">
+                                <tr>
+                                    <td>Date</td>
+                                    <td>2016-12-25</td>
+                                </tr>
+                                <tr>
+                                    <td>Moving time</td>
+                                    <td>19:50:33</td>
+                                </tr>
+                                <tr>
+                                    <td>Elapsed time</td>
+                                    <td>23:30:48</td>
+                                </tr>
+                            </table>
+                        </li>
+
+                    </ul>
+
+
+
+            </div>
+        </div>
+        
+        <div class="col-4">
+            <div class="card">
+                
+                <a class="thumbnail card-zoom" href="#" data-image-id="" data-toggle="modal" data-title="Vroeg uit de veren en rijen maar" data-caption="251.0km" data-image="https://d2u2bkuhdva5j0.cloudfront.net/activities/805496690/0/2/640x360.png@2x" data-target="#image-gallery">
+                    <img class="lazy card-img-top img-fluid" src="img/jpg/placeholder.jpg" data-original="https://d2u2bkuhdva5j0.cloudfront.net/activities/805496690/0/2/640x360.png@2x" width="350" height="200" alt="Card image cap">
+                </a>
+                <div class="card-block">
+                    <div class="card-icon">
+                        <svg role="img" class="c-symbol">
+                            <use xlink:href="/img/svg/svg-symbols.svg#c-symbol-ride"></use>
+                        </svg>
+                    </div>
+                    <h4 class="card-title"><a href="#!">Vroeg uit de veren en rijen maar</a></h4>
+                    <table>
+                        <tr>
+                            <td><strong>Distance</strong></td>
+                            <td>251.0km</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Elevation</strong></td>
+                            <td>138m</td>
+                        </tr>
+                    </table>
+                </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <table class="muted">
+                                <tr>
+                                    <td>Date</td>
+                                    <td>2016-12-18</td>
+                                </tr>
+                                <tr>
+                                    <td>Moving time</td>
+                                    <td>09:32:46</td>
+                                </tr>
+                                <tr>
+                                    <td>Elapsed time</td>
+                                    <td>11:44:27</td>
+                                </tr>
+                            </table>
+                        </li>
+
+                    </ul>
+
+
+
+            </div>
+        </div>
+        
+        <div class="col-4">
+            <div class="card">
+                
+                <a class="thumbnail card-zoom" href="#" data-image-id="" data-toggle="modal" data-title="Morning Ride + GPS alweer retourneren" data-caption="95.4km" data-image="https://d2u2bkuhdva5j0.cloudfront.net/activities/802057783/0/2/640x360.png@2x" data-target="#image-gallery">
+                    <img class="lazy card-img-top img-fluid" src="img/jpg/placeholder.jpg" data-original="https://d2u2bkuhdva5j0.cloudfront.net/activities/802057783/0/2/640x360.png@2x" width="350" height="200" alt="Card image cap">
+                </a>
+                <div class="card-block">
+                    <div class="card-icon">
+                        <svg role="img" class="c-symbol">
+                            <use xlink:href="/img/svg/svg-symbols.svg#c-symbol-ride"></use>
+                        </svg>
+                    </div>
+                    <h4 class="card-title"><a href="#!">Morning Ride + GPS alweer retourneren</a></h4>
+                    <table>
+                        <tr>
+                            <td><strong>Distance</strong></td>
+                            <td>95.4km</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Elevation</strong></td>
+                            <td>109m</td>
+                        </tr>
+                    </table>
+                </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <table class="muted">
+                                <tr>
+                                    <td>Date</td>
+                                    <td>2016-12-14</td>
+                                </tr>
+                                <tr>
+                                    <td>Moving time</td>
+                                    <td>03:11:07</td>
+                                </tr>
+                                <tr>
+                                    <td>Elapsed time</td>
+                                    <td>03:34:41</td>
+                                </tr>
+                            </table>
+                        </li>
+
+                    </ul>
+
+
+
+            </div>
+        </div>
+        
+        <div class="col-4">
+            <div class="card">
+                
+                <a class="thumbnail card-zoom" href="#" data-image-id="" data-toggle="modal" data-title="Zondagsritje" data-caption="71km" data-image="https://d2u2bkuhdva5j0.cloudfront.net/activities/799602536/0/2/640x360.png@2x" data-target="#image-gallery">
+                    <img class="lazy card-img-top img-fluid" src="img/jpg/placeholder.jpg" data-original="https://d2u2bkuhdva5j0.cloudfront.net/activities/799602536/0/2/640x360.png@2x" width="350" height="200" alt="Card image cap">
+                </a>
+                <div class="card-block">
+                    <div class="card-icon">
+                        <svg role="img" class="c-symbol">
+                            <use xlink:href="/img/svg/svg-symbols.svg#c-symbol-ride"></use>
+                        </svg>
+                    </div>
+                    <h4 class="card-title"><a href="#!">Zondagsritje</a></h4>
+                    <table>
+                        <tr>
+                            <td><strong>Distance</strong></td>
+                            <td>71km</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Elevation</strong></td>
+                            <td>55m</td>
+                        </tr>
+                    </table>
+                </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <table class="muted">
+                                <tr>
+                                    <td>Date</td>
+                                    <td>2016-12-11</td>
+                                </tr>
+                                <tr>
+                                    <td>Moving time</td>
+                                    <td>02:37:10</td>
+                                </tr>
+                                <tr>
+                                    <td>Elapsed time</td>
+                                    <td>03:28:39</td>
+                                </tr>
+                            </table>
+                        </li>
+
+                    </ul>
+
+
+
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<!-- Le modal -->
+<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="image-gallery-title"></h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <img id="image-gallery-image" class="img-fluid" src="">
+            </div>
+            <div class="modal-footer">
+
+                <div class="col-md-2 modal-previous">
+                    <button type="button" class="btn btn-default" id="show-previous-image">Previous</button>
+                </div>
+
+                <div class="col-md-8 modal-caption" id="image-gallery-caption">
+                    This text will be overwritten by jQuery
+                </div>
+
+                <div class="col-md-2 modal-next">
+                    <button type="button" id="show-next-image" class="btn btn-primary">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Page footer -->
+    <!-- <footer class="c-row c-row--beta">
+    <div class="o-container">
+        <div class="o-grid">
+            <div class="o-grid__item">
+                <p>Copyright MMXV Chopstick</p>
+            </div>
+        </div>
+    </div>
+</footer>
+ -->
+    <!-- End page footer -->
+
+    <!-- Footer javascript -->
+    <!-- A simple polyfill that fetches external SVGs referenced in <use> elements when the browser itself fails to do so. -->
+<script defer src="vendor/svgxuse/svgxuse.min.js"></script>
+
+<!-- Always Load jQuery First -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="bower_components/jquery.lazyload/jquery.lazyload.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script>
+    $(function() {
+        $("img.lazy").lazyload({
+            effect : "fadeIn"
+        });
+    });
+
+    $(document).ready(function(){
+
+    loadGallery(true, 'a.thumbnail');
+
+    //This function disables buttons when needed
+    function disableButtons(counter_max, counter_current){
+        $('#show-previous-image, #show-next-image').show();
+        if(counter_max == counter_current){
+            $('#show-next-image').hide();
+        } else if (counter_current == 1){
+            $('#show-previous-image').hide();
+        }
+    }
+
+    /**
+     *
+     * @param setIDs        Sets IDs when DOM is loaded. If using a PHP counter, set to false.
+     * @param setClickAttr  Sets the attribute for the click handler.
+     */
+
+    function loadGallery(setIDs, setClickAttr){
+        var current_image,
+            selector,
+            counter = 0;
+
+        $('#show-next-image, #show-previous-image').click(function(){
+            if($(this).attr('id') == 'show-previous-image'){
+                current_image--;
+            } else {
+                current_image++;
+            }
+
+            selector = $('[data-image-id="' + current_image + '"]');
+            updateGallery(selector);
+        });
+
+        function updateGallery(selector) {
+            var $sel = selector;
+            current_image = $sel.data('image-id');
+            $('#image-gallery-caption').text($sel.data('caption'));
+            $('#image-gallery-title').text($sel.data('title'));
+            $('#image-gallery-image').attr('src', $sel.data('image'));
+            disableButtons(counter, $sel.data('image-id'));
+        }
+
+        if(setIDs == true){
+            $('[data-image-id]').each(function(){
+                counter++;
+                $(this).attr('data-image-id',counter);
+            });
+        }
+        $(setClickAttr).on('click',function(){
+            updateGallery($(this));
+        });
+    }
+});
+</script>
+
+    <!-- End footer javascript -->
+
+</body>
+</html>
